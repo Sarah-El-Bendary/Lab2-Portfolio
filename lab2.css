@@ -1,0 +1,173 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #ffffff;
+    color: #222;
+}
+
+/* Header */
+.firstdiv {
+    background-color: #191d2b;
+    color: white;
+    text-align: center;
+    padding: 10px 15px;
+}
+
+.firstdiv h1 {
+    font-size: 28px;
+    margin: 10px 0 20px;
+}
+
+.firstdiv p {
+    font-size: 14px;
+    margin: 15px 0;
+}
+
+/* About Me */
+.seconddiv {
+    text-align: center;
+    padding: 15px 20px 25px;
+}
+
+.seconddiv h1 {
+    color: #222;
+    font-size: 28px;
+    margin: 15px 0 20px;
+}
+
+.seconddiv p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* Projects heading */
+body > h2 {
+    font-size: 24px;
+    margin: 20px 0 20px;
+    color: #222;
+}
+
+/* Projects container */
+.thirddiv {
+    text-align: center;
+    margin: 0 auto 0;
+    padding: 0 10px 30px;
+}
+
+/* Project cards */
+.third1,
+.third2,
+.third3 {
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    width: 172px;
+    min-height: 76px;
+    padding: 12px;
+    margin: 0 5px;
+    background-color: white;
+    text-align: left;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+}
+
+.third1 h3,
+.third2 h3,
+.third3 h3 {
+    font-size: 12px;
+    margin: 0 0 10px;
+    color: #333;
+}
+
+.third1 p,
+.third2 p,
+.third3 p {
+    font-size: 10px;
+    line-height: 1.5;
+    margin: 0;
+    color: #444;
+}
+
+/* Contact section */
+.fourthdiv {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 35px 15px 55px;
+}
+
+.fourthdiv h2 {
+    font-size: 24px;
+    color: #222;
+    margin: 0 0 20px;
+}
+
+/* Name, email and message fields */
+.fourthdiv input,
+.fourthdiv textarea {
+    display: block;
+    box-sizing: border-box;
+    width: 260px;
+    max-width: 100%;
+    padding: 8px;
+    margin: 7px auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: white;
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+}
+
+/* Message box */
+.fourthdiv textarea {
+    height: 62px;
+    resize: vertical;
+}
+
+/* Send Message button */
+#btn1 {
+    display: block;
+    box-sizing: border-box;
+    width: 260px;
+    max-width: 100%;
+    padding: 8px;
+    margin: 8px auto 0;
+    background-color: #222;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+/* Footer */
+.footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 10px;
+}
+
+.footer p {
+    margin: 0;
+}
+
+/* Responsive layout for small screens */
+@media (max-width: 600px) {
+    .third1,
+    .third2,
+    .third3 {
+        display: block;
+        width: 260px;
+        max-width: 100%;
+        margin: 10px auto;
+    }
+
+    .seconddiv p {
+        font-size: 14px;
+    }
+}
